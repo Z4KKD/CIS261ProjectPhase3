@@ -36,8 +36,7 @@ def printinfo(DetailsPrinted):
     TotNetPay = 0.00
 ###################################################################
     # write the line of code to open Employees.txt file in read mode and assign to EmpFile
-    rundate = 'Employees.txt'
-    EmpFile = open(rundate)
+    EmpFile = 'Employees.txt', r
 
     while True:
         rundate = input ("Enter start date for report (MM/DD/YYYY) or All for all data in file: ")
