@@ -118,7 +118,7 @@ if __name__ == "__main__":
         # write the liie of code that will write EmpDetail to EmpFile
     
     # write the line of code to close EmpFile
-
+    EmpFile.close()
     printinfo(DetailsPrinted)
 
 
