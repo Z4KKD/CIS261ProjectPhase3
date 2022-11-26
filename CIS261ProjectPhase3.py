@@ -53,7 +53,7 @@ def printinfo(DetailsPrinted):
         if not EmpDetail:
             break
         #write the line of code to remove the carriage return from the end of the record read from the file
-        EmpDetail = EmpDetail.replace("/r", "")   
+        EmpDetail = EmpDetail.replace("\r", "")   
         #write the line of code to split the record read in on the pipe delimiter and assign it to EmpList
         EmpList = EmpDetail.split("|")
         fromdate = EmpList[0]
